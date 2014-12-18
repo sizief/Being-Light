@@ -102,6 +102,12 @@ blockquote,
 q {
 	quotes: "" "";
 }
+blockquote{
+	background-image:url(images/quote-32.png);
+	background-position:right top;
+	background-repeat:no-repeat;	
+	padding-right:42px;
+}
 
 a:focus {
 	outline: thin dotted;
@@ -720,7 +726,7 @@ object {
 12.1 Captions
 --------------------------------------------------------------*/
 .wp-caption {
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 	max-width: 100%;
 }
 
@@ -730,11 +736,12 @@ object {
 }
 
 .wp-caption-text {
-	text-align: center;
 }
 
 .wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
+	color: #eeeeee;
+	text-align: left;
+	margin-top: -1.5em;
 }
 
 /*--------------------------------------------------------------
